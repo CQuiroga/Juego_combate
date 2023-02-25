@@ -83,7 +83,7 @@ input:hover + label, input:checked + label, .boton-de-ataque:hover, .boton-de-at
   box-sizing: border-box;
   border-radius: 20px;
   border-color: transparent;
-  width: 180px;
+  width: 60px;
   color: white;
   font-family: 'Poppins', sans-serif;
 }
