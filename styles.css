@@ -141,7 +141,30 @@ input:hover + label, input:checked + label, .boton-de-ataque:hover, .boton-de-at
   color:gold;
 }
 
-@media (max-width: 360px) {
+#ver-mapa {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12em;
+}
+
+#ver-mapa button {
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  margin: 10px;
+}
+
+#mapa {
+  margin-top: 2em;
+  border: 2px solid white;
+}
+
+@media (max-width: 560px) {
   .tarjetas, .tarjetas-ataques {
     flex-direction: column;
   }
@@ -155,4 +178,15 @@ input:hover + label, input:checked + label, .boton-de-ataque:hover, .boton-de-at
     background-size:contain;
     background-size: 100dvi;
 }
+
+  
+}
+
+@media (max-width: 300px) {
+
+  #ver-mapa div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  } 
 }
